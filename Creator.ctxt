@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=n\ text\ c
+comment0.target=Creator(java.lang.String,\ Notes,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getCreation()
+numComments=2

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=n\ y
+comment0.target=PoliticalUnit(java.lang.String,\ Years)
+comment1.params=n\ y\ e\ a\ p
+comment1.target=PoliticalUnit(java.lang.String,\ Years,\ Notes,\ Notes,\ Notes)
+comment10.params=
+comment10.target=void\ listAccomplishments()
+comment2.params=
+comment2.target=java.util.ArrayList\ getEvents()
+comment3.params=
+comment3.target=java.util.ArrayList\ getAccomplishments()
+comment4.params=
+comment4.target=java.util.ArrayList\ getPeople()
+comment5.params=notes
+comment5.target=void\ addEvent(Notes)
+comment6.params=notes
+comment6.target=void\ addAccomplishment(Notes)
+comment7.params=notes
+comment7.target=void\ addPerson(Notes)
+comment8.params=
+comment8.target=void\ printSpan()
+comment9.params=
+comment9.target=void\ listEvents()
+comment9.text=Prints\ a\ list\ of\ events/accomplishments\ associated\ with\ the\ unit
+numComments=11

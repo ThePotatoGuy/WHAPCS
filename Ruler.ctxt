@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=n\ text\ p\ y
+comment0.target=Ruler(java.lang.String,\ Notes,\ java.lang.String,\ Years)
+comment1.params=
+comment1.target=java.lang.String\ getPlace()
+comment2.params=
+comment2.target=void\ printYearsRuled()
+numComments=3
