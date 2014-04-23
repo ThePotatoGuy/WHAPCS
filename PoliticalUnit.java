@@ -5,6 +5,7 @@ public class PoliticalUnit{
     Years span;// = new Years();
     ArrayList<Notes> events, accomplishments, people;
     public PoliticalUnit(String n, Years y){
+    	//System.out.println("creating");
         name = n;
         span = y;
         events = new ArrayList<Notes>();

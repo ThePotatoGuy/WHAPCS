@@ -5,6 +5,7 @@ public class Unit2{
     public static void main (String [] args){
         //Notes test = new Notes("Name", "Notes/Events/Persian Wars.txt");
         //test.printNotes();
+    	PoliticalUnits = new ArrayList<PoliticalUnit>();
         addAchaemenid();
         //PoliticalUnits.add(new PoliticalUnit("Achaemenid Empire", new Years(-558, -330)));
         
