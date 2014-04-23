@@ -38,7 +38,7 @@ public class Unit2{
     }
     public static int indexOf(String input, ArrayList list){
         for (int i = 0; i < list.size(); i++){
-            if (PoliticalUnits.get(i).equals(input)) return i;
+            if (PoliticalUnits.get(i).isSameUnit(input)) return i;
         }
         return -1;
     }
