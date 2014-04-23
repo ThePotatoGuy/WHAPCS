@@ -57,4 +57,15 @@ public class PoliticalUnit{
             System.out.println(item.getName());
         }
     }
+    
+    public boolean isSameUnit(PoliticalUnit t){
+    	return isSameUnit(t.name);
+    }
+    
+    public boolean isSameUnit(String name){
+    	if(this.name.equals(name)){
+    		return true;
+    	}
+    	return false;
+    }
 }
