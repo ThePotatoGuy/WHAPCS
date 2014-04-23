@@ -6,6 +6,7 @@ public class Years{
         start = end = 0;
     }
     public Years(int x, int y){
+    	System.out.println("its not what you think");
         if (x > y){
             end = x;
             start = y;
