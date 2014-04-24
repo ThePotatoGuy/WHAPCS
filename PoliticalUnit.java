@@ -34,6 +34,14 @@ public class PoliticalUnit{
         return people;
     }
     
+    public Notes getEvent(String input){
+        for (int i = 0; i < events.size(); i++){
+            if (events.get(i).getName().equals(input)) return events.get(i);
+        }
+        System.out.println("Event not found");
+        return null;
+    }
+    
     public void addEvent(Notes notes){
         events.add(notes);
     }

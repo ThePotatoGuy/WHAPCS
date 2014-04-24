@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=num
+comment0.target=Unit(int)
+comment1.params=
+comment1.target=java.util.ArrayList\ getPoliticalUnits()
+comment2.params=input
+comment2.target=PoliticalUnit\ getPoliticalUnit(java.lang.String)
+comment3.params=unit\ name\ directory
+comment3.target=void\ newEvent(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.params=unit\ name\ directory
+comment4.target=void\ newAccomplishment(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment5.params=unit\ name\ directory
+comment5.target=void\ newPerson(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment6.params=input\ list
+comment6.target=int\ indexOf(java.lang.String,\ java.util.ArrayList)
+numComments=7

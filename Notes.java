@@ -13,9 +13,7 @@ public class Notes{
                 Lines.add(file.nextLine());     //The ArrayList will contain each line of the .txt as a separate string
             }
         }
-        catch (Exception e){        //I don't know what it does but it makes it work
-            System.out.println("fseadsdjf");    //Probably shouldn't reach here
-        }
+        catch (Exception e){}        //I don't know what it does but it makes it work
     }
     public String getName(){
         return name;
