@@ -4,10 +4,10 @@ import java.util.ArrayList;
         methods which are to be shared among each unit. */
         
 public class Unit{
-    static ArrayList<PoliticalUnit> PoliticalUnits;
+    static final ArrayList<PoliticalUnit> PoliticalUnits = new ArrayList<PoliticalUnit>();
     int unitNumber;
     public Unit(int num){
-        PoliticalUnits = new ArrayList<PoliticalUnit>();
+        //PoliticalUnits = new ArrayList<PoliticalUnit>();
         unitNumber = num;
     }
     //Returns the ArrayList which contains all of the Political Units.
@@ -29,6 +29,7 @@ public class Unit{
     }
     public static int indexOf(String input, ArrayList list){
         for (int i = 0; i < list.size(); i++){
+        	//System.out.println(PoliticalUnits.get(i).name+":"+input);
             if (PoliticalUnits.get(i).isSameUnit(input)) return i;
         }
         System.out.println("indexOf isn't working");
