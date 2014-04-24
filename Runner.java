@@ -9,7 +9,7 @@ public class Runner{
         Unit SIX = new Unit6();
         
         /** Running stuff */
-        //TWO.getPoliticalUnit("Achaemenid Empire").getEvent("Persian Wars").printNotes();
+        TWO.getPoliticalUnit("Achaemenid Empire").getEvent("Persian Wars").printNotes();
         System.out.println(TWO.getPoliticalUnits().size());
     }
 }
