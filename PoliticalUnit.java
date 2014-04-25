@@ -24,13 +24,13 @@ public class PoliticalUnit{
         people.add(p);
     }
     
-    public ArrayList getEvents(){
+    public ArrayList<Notes> getEvents(){
         return events;
     }
-    public ArrayList getAccomplishments(){
+    public ArrayList<Notes> getAccomplishments(){
         return accomplishments;
     }
-    public ArrayList getPeople(){
+    public ArrayList<Notes> getPeople(){
         return people;
     }
     

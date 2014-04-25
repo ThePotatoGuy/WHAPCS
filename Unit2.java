@@ -6,7 +6,7 @@ public class Unit2 extends Unit{
         addAchaemenid();
     }
     
-    public static void addAchaemenid(){
+    public void addAchaemenid(){
         PoliticalUnits.add(new PoliticalUnit("Achaemenid Empire", new Years(-558, -330)));
         
         /** Events */

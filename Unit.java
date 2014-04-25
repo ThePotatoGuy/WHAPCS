@@ -11,23 +11,23 @@ public class Unit{
         unitNumber = num;
     }
     //Returns the ArrayList which contains all of the Political Units.
-    public static ArrayList getPoliticalUnits(){
+    public ArrayList<PoliticalUnit> getPoliticalUnits(){
         return PoliticalUnits;
     }
     //Returns specified Political Unit.
-    public static PoliticalUnit getPoliticalUnit(String input){
+    public PoliticalUnit getPoliticalUnit(String input){
         return PoliticalUnits.get(indexOf(input , PoliticalUnits));
     }
-    public static void newEvent(String unit, String name, String directory){
+    public void newEvent(String unit, String name, String directory){
         PoliticalUnits.get(indexOf(unit, PoliticalUnits)).addEvent(new Notes(name, directory));
     }
-    public static void newAccomplishment(String unit, String name, String directory){
+    public void newAccomplishment(String unit, String name, String directory){
         PoliticalUnits.get(indexOf(unit, PoliticalUnits)).addAccomplishment(new Notes(name, directory));
     }
-    public static void newPerson(String unit, String name, String directory){
+    public void newPerson(String unit, String name, String directory){
         PoliticalUnits.get(indexOf(unit, PoliticalUnits)).addPerson(new Notes(name, directory));
     }
-    public static int indexOf(String input, ArrayList list){
+    public int indexOf(String input, ArrayList<PoliticalUnit> list){
         for (int i = 0; i < list.size(); i++){
         	//System.out.println(PoliticalUnits.get(i).name+":"+input);
             if (PoliticalUnits.get(i).isSameUnit(input)) return i;
